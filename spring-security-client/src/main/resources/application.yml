@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:user-registration
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+#  spring:
+#    datasource:
+#      url: jdbc:mysql://localhost:3306/user-registration
+#      username: root
+#      password: Saeed123456
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#    jpa:
+#      show-sql: true
+#      hibernate:
+#        ddl-auto: update
